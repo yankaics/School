@@ -1,0 +1,44 @@
+//
+//  PrefixHeader.pch
+//
+//  Created by hjl on 16/3/23.
+//  Copyright © 2016年 hjl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// 分类
+#import "UIView+HHExtension.h"
+#import "UIBarButtonItem+HHExtension.h"
+#import <SVProgressHUD.h>
+#import <BmobSDK/Bmob.h>
+
+
+#ifdef DEBUG
+#define HHLog(...) NSLog(__VA_ARGS__)
+#else
+#define HHLog(...)
+#endif
+
+
+#define HHHeight [UIApplication sharedApplication].keyWindow.height
+#define HHWidth [UIApplication sharedApplication].keyWindow.width
+
+#define HHDoc [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject]
+
+#define HHBackgroundColor HHRGBColor(222, 222, 222, 1.0)
+#define HHtitleColor HHRGBColor(50, 203, 187, 1.0)
+
+#define HHLogFunc HHLog(@"%s", __func__)
+
+#define imageCount 7
+#define scrollHeight 160
+
+
+#define HHRGBColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a * 1.0]
+
+
+
+#endif
+/* PrefixHeader_pch */
