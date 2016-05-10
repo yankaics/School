@@ -9,9 +9,9 @@
 #import "HHTabBarController.h"
 #import "HHNavigationController.h"
 #import "HHHomeController.h"
-#import "HHActivityController.h"
+#import "HHActivityListController.h"
 #import "HHPublishController.h"
-
+#import "HHStatusController.h"
 #import "HHMeController.h"
 @interface HHTabBarController ()
 
@@ -72,13 +72,13 @@
     [self addChildViewController:[[HHHomeController alloc] init] title:@"新闻" image:@"tab_home_nor" selectedImage:@"tab_home_click"];
     
     // 活动
-    [self addChildViewController:[[HHActivityController alloc] init] title:@"活动" image:@"tab_find_nor" selectedImage:@"tab_find_click"];
+    [self addChildViewController:[[HHActivityListController alloc] init] title:@"活动" image:@"tab_find_nor" selectedImage:@"tab_find_click"];
     
     // 加号
     [self addChildViewController:[[UIViewController alloc] init] title:@"" image:nil            selectedImage:nil];
     
     // 树洞
-    [self addChildViewController:[[UITableViewController alloc] init] title:@"树洞" image:@"tab_school_circle_nor" selectedImage:@"tab_school_circle"];
+    [self addChildViewController:[[HHStatusController alloc] init] title:@"树洞" image:@"tab_school_circle_nor" selectedImage:@"tab_school_circle"];
     
     // 我
     [self addChildViewController:[[HHMeController alloc] init] title:@"我" image:@"tab_message_nor" selectedImage:@"tab_message_click"];

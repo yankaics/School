@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
@@ -20,14 +21,14 @@
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8t-r0-GhN">
                     <rect key="frame" x="210" y="334" width="180" height="40"/>
-                    <color key="backgroundColor" red="0.84943896812080533" green="0.22745638859697989" blue="0.20308415067657717" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.66202399000000001" green="1" blue="0.95896712439999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="180" id="8XD-He-VUh"/>
                         <constraint firstAttribute="height" constant="40" id="OSd-9r-7jJ"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <state key="normal" title="确定修改">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="sureClick:" destination="-1" eventType="touchUpInside" id="516-mD-9Iu"/>

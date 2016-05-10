@@ -85,7 +85,7 @@
     
     UIView *tableViewHeader = [[UIView alloc] init];
     tableViewHeader.frame = CGRectMake(0, 0, HHWidth, 160);
-    tableViewHeader.backgroundColor = [UIColor redColor];
+    tableViewHeader.backgroundColor = HHRGBColor(63, 218, 149, 1);
     
     [bottomView addSubview:tableViewHeader];
     self.tableView.tableHeaderView = bottomView;

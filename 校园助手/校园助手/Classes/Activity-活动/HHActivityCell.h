@@ -1,5 +1,5 @@
 //
-//  HHActivityController.h
+//  HHActivityCell.h
 //  校园助手
 //
 //  Created by hjl on 16/5/8.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 @class HHActivity;
-@interface HHActivityController : UITableViewController
-/** activity */
+@interface HHActivityCell : UITableViewCell
+
+/** HHActivity */
 @property (nonatomic, strong) HHActivity *activity;
 
 

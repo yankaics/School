@@ -19,6 +19,14 @@
 		0A5064771CDEE65700C9844A /* UIView+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5064721CDEE65700C9844A /* UIView+HHExtension.m */; };
 		0A5064801CDEE80D00C9844A /* HHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A50647F1CDEE80D00C9844A /* HHNavigationBar.m */; };
 		0A5064831CDEE82400C9844A /* UIBarButtonItem+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5064821CDEE82400C9844A /* UIBarButtonItem+HHExtension.m */; };
+		0A7A58221CE184DB00B893E5 /* HHPublishBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A58211CE184DB00B893E5 /* HHPublishBar.m */; };
+		0A7A58241CE185ED00B893E5 /* HHPublishBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A58231CE185ED00B893E5 /* HHPublishBar.xib */; };
+		0A7A58311CE1DE7700B893E5 /* HHStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A58271CE1DE7700B893E5 /* HHStatusController.m */; };
+		0A7A58321CE1DE7700B893E5 /* HHTweetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A58291CE1DE7700B893E5 /* HHTweetController.m */; };
+		0A7A58331CE1DE7700B893E5 /* HHTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A582C1CE1DE7700B893E5 /* HHTweet.m */; };
+		0A7A58341CE1DE7700B893E5 /* HHTweetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A582F1CE1DE7700B893E5 /* HHTweetCell.m */; };
+		0A7A58351CE1DE7700B893E5 /* HHTweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A58301CE1DE7700B893E5 /* HHTweetCell.xib */; };
+		0A7A58381CE1DEBD00B893E5 /* NSDate+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A58371CE1DEBD00B893E5 /* NSDate+XMGExtension.m */; };
 		0AAA33971CDEFC7900A71ACF /* HHHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33961CDEFC7900A71ACF /* HHHomeController.m */; };
 		0AAA339A1CDEFD5200A71ACF /* HHFirstScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33991CDEFD5200A71ACF /* HHFirstScrollView.m */; };
 		0AAA33A41CDF0A1900A71ACF /* HHPublishController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33A01CDF0A1900A71ACF /* HHPublishController.m */; };
@@ -30,6 +38,10 @@
 		0AAA33BC1CDF0CDD00A71ACF /* HHMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33B01CDF0CDD00A71ACF /* HHMeController.m */; };
 		0AAA33BD1CDF0CDD00A71ACF /* HHSocialButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33B31CDF0CDD00A71ACF /* HHSocialButton.m */; };
 		0AAA33BE1CDF0CDD00A71ACF /* LrdOutputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33B71CDF0CDD00A71ACF /* LrdOutputView.m */; };
+		0AAA33C11CDF13AF00A71ACF /* HHActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33C01CDF13AF00A71ACF /* HHActivity.m */; };
+		0AAA33C51CDF237400A71ACF /* HHActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33C31CDF237400A71ACF /* HHActivityCell.m */; };
+		0AAA33C61CDF237400A71ACF /* HHActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AAA33C41CDF237400A71ACF /* HHActivityCell.xib */; };
+		0AAA33C91CDF68F500A71ACF /* HHActivityListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA33C81CDF68F500A71ACF /* HHActivityListController.m */; };
 		B7F11C09F0E884DC3DA450AD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D04B2AC1AED3B8A9586A9C /* libPods.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
@@ -76,6 +88,20 @@
 		0A50647F1CDEE80D00C9844A /* HHNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationBar.m; sourceTree = "<group>"; };
 		0A5064811CDEE82400C9844A /* UIBarButtonItem+HHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HHExtension.h"; sourceTree = "<group>"; };
 		0A5064821CDEE82400C9844A /* UIBarButtonItem+HHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HHExtension.m"; sourceTree = "<group>"; };
+		0A7A58201CE184DB00B893E5 /* HHPublishBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPublishBar.h; sourceTree = "<group>"; };
+		0A7A58211CE184DB00B893E5 /* HHPublishBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPublishBar.m; sourceTree = "<group>"; };
+		0A7A58231CE185ED00B893E5 /* HHPublishBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHPublishBar.xib; sourceTree = "<group>"; };
+		0A7A58261CE1DE7700B893E5 /* HHStatusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHStatusController.h; sourceTree = "<group>"; };
+		0A7A58271CE1DE7700B893E5 /* HHStatusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHStatusController.m; sourceTree = "<group>"; };
+		0A7A58281CE1DE7700B893E5 /* HHTweetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTweetController.h; sourceTree = "<group>"; };
+		0A7A58291CE1DE7700B893E5 /* HHTweetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTweetController.m; sourceTree = "<group>"; };
+		0A7A582B1CE1DE7700B893E5 /* HHTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTweet.h; sourceTree = "<group>"; };
+		0A7A582C1CE1DE7700B893E5 /* HHTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTweet.m; sourceTree = "<group>"; };
+		0A7A582E1CE1DE7700B893E5 /* HHTweetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTweetCell.h; sourceTree = "<group>"; };
+		0A7A582F1CE1DE7700B893E5 /* HHTweetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTweetCell.m; sourceTree = "<group>"; };
+		0A7A58301CE1DE7700B893E5 /* HHTweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHTweetCell.xib; sourceTree = "<group>"; };
+		0A7A58361CE1DEBD00B893E5 /* NSDate+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+XMGExtension.h"; sourceTree = "<group>"; };
+		0A7A58371CE1DEBD00B893E5 /* NSDate+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XMGExtension.m"; sourceTree = "<group>"; };
 		0AAA33951CDEFC7900A71ACF /* HHHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHHomeController.h; sourceTree = "<group>"; };
 		0AAA33961CDEFC7900A71ACF /* HHHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHHomeController.m; sourceTree = "<group>"; };
 		0AAA33981CDEFD5200A71ACF /* HHFirstScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHFirstScrollView.h; sourceTree = "<group>"; };
@@ -96,6 +122,13 @@
 		0AAA33B31CDF0CDD00A71ACF /* HHSocialButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSocialButton.m; sourceTree = "<group>"; };
 		0AAA33B61CDF0CDD00A71ACF /* LrdOutputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LrdOutputView.h; sourceTree = "<group>"; };
 		0AAA33B71CDF0CDD00A71ACF /* LrdOutputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LrdOutputView.m; sourceTree = "<group>"; };
+		0AAA33BF1CDF13AF00A71ACF /* HHActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHActivity.h; sourceTree = "<group>"; };
+		0AAA33C01CDF13AF00A71ACF /* HHActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHActivity.m; sourceTree = "<group>"; };
+		0AAA33C21CDF237400A71ACF /* HHActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHActivityCell.h; sourceTree = "<group>"; };
+		0AAA33C31CDF237400A71ACF /* HHActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHActivityCell.m; sourceTree = "<group>"; };
+		0AAA33C41CDF237400A71ACF /* HHActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHActivityCell.xib; sourceTree = "<group>"; };
+		0AAA33C71CDF68F500A71ACF /* HHActivityListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHActivityListController.h; sourceTree = "<group>"; };
+		0AAA33C81CDF68F500A71ACF /* HHActivityListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHActivityListController.m; sourceTree = "<group>"; };
 		4787391D4800E4B77A406613 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		63446CCBDAC650F03C58C081 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C2D04B2AC1AED3B8A9586A9C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -232,6 +265,8 @@
 				0A5064821CDEE82400C9844A /* UIBarButtonItem+HHExtension.m */,
 				0A50646D1CDEE65700C9844A /* AppDelegate.h */,
 				0A50646E1CDEE65700C9844A /* AppDelegate.m */,
+				0A7A58361CE1DEBD00B893E5 /* NSDate+XMGExtension.h */,
+				0A7A58371CE1DEBD00B893E5 /* NSDate+XMGExtension.m */,
 				0A50646F1CDEE65700C9844A /* Foundation+Log.m */,
 				0A5064701CDEE65700C9844A /* PrefixHeader.pch */,
 				0A5064711CDEE65700C9844A /* UIView+HHExtension.h */,
@@ -240,11 +275,48 @@
 			path = "Other-其他";
 			sourceTree = "<group>";
 		};
+		0A7A58251CE1DE7700B893E5 /* Controller-控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A58261CE1DE7700B893E5 /* HHStatusController.h */,
+				0A7A58271CE1DE7700B893E5 /* HHStatusController.m */,
+				0A7A58281CE1DE7700B893E5 /* HHTweetController.h */,
+				0A7A58291CE1DE7700B893E5 /* HHTweetController.m */,
+			);
+			path = "Controller-控制器";
+			sourceTree = "<group>";
+		};
+		0A7A582A1CE1DE7700B893E5 /* Model-模型 */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A582B1CE1DE7700B893E5 /* HHTweet.h */,
+				0A7A582C1CE1DE7700B893E5 /* HHTweet.m */,
+			);
+			path = "Model-模型";
+			sourceTree = "<group>";
+		};
+		0A7A582D1CE1DE7700B893E5 /* View-视图 */ = {
+			isa = PBXGroup;
+			children = (
+				0A7A582E1CE1DE7700B893E5 /* HHTweetCell.h */,
+				0A7A582F1CE1DE7700B893E5 /* HHTweetCell.m */,
+				0A7A58301CE1DE7700B893E5 /* HHTweetCell.xib */,
+			);
+			path = "View-视图";
+			sourceTree = "<group>";
+		};
 		0AAA339B1CDF0A0300A71ACF /* Activity-活动 */ = {
 			isa = PBXGroup;
 			children = (
+				0AAA33C71CDF68F500A71ACF /* HHActivityListController.h */,
+				0AAA33C81CDF68F500A71ACF /* HHActivityListController.m */,
 				0AAA33A51CDF0B2100A71ACF /* HHActivityController.h */,
 				0AAA33A61CDF0B2100A71ACF /* HHActivityController.m */,
+				0AAA33BF1CDF13AF00A71ACF /* HHActivity.h */,
+				0AAA33C01CDF13AF00A71ACF /* HHActivity.m */,
+				0AAA33C21CDF237400A71ACF /* HHActivityCell.h */,
+				0AAA33C31CDF237400A71ACF /* HHActivityCell.m */,
+				0AAA33C41CDF237400A71ACF /* HHActivityCell.xib */,
 			);
 			path = "Activity-活动";
 			sourceTree = "<group>";
@@ -288,6 +360,9 @@
 		0AAA33A21CDF0A1900A71ACF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A7A58201CE184DB00B893E5 /* HHPublishBar.h */,
+				0A7A58231CE185ED00B893E5 /* HHPublishBar.xib */,
+				0A7A58211CE184DB00B893E5 /* HHPublishBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +370,9 @@
 		0AAA33A31CDF0A1900A71ACF /* Tweet-树洞 */ = {
 			isa = PBXGroup;
 			children = (
+				0A7A58251CE1DE7700B893E5 /* Controller-控制器 */,
+				0A7A582A1CE1DE7700B893E5 /* Model-模型 */,
+				0A7A582D1CE1DE7700B893E5 /* View-视图 */,
 			);
 			path = "Tweet-树洞";
 			sourceTree = "<group>";
@@ -470,7 +548,10 @@
 				0AAA33B91CDF0CDD00A71ACF /* HHEditMeInfoController.xib in Resources */,
 				0A5064361CDEE2CC00C9844A /* LaunchScreen.storyboard in Resources */,
 				0A5064331CDEE2CC00C9844A /* Assets.xcassets in Resources */,
+				0AAA33C61CDF237400A71ACF /* HHActivityCell.xib in Resources */,
 				0AAA33BB1CDF0CDD00A71ACF /* HHLoginController.xib in Resources */,
+				0A7A58351CE1DE7700B893E5 /* HHTweetCell.xib in Resources */,
+				0A7A58241CE185ED00B893E5 /* HHPublishBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,23 +624,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AAA33C51CDF237400A71ACF /* HHActivityCell.m in Sources */,
 				0AAA339A1CDEFD5200A71ACF /* HHFirstScrollView.m in Sources */,
+				0AAA33C91CDF68F500A71ACF /* HHActivityListController.m in Sources */,
 				0A5064771CDEE65700C9844A /* UIView+HHExtension.m in Sources */,
 				0AAA33BD1CDF0CDD00A71ACF /* HHSocialButton.m in Sources */,
 				0A5064801CDEE80D00C9844A /* HHNavigationBar.m in Sources */,
 				0AAA33A41CDF0A1900A71ACF /* HHPublishController.m in Sources */,
+				0A7A58311CE1DE7700B893E5 /* HHStatusController.m in Sources */,
 				0AAA33B81CDF0CDD00A71ACF /* HHEditMeInfoController.m in Sources */,
 				0AAA33971CDEFC7900A71ACF /* HHHomeController.m in Sources */,
 				0A5064751CDEE65700C9844A /* AppDelegate.m in Sources */,
 				0AAA33BA1CDF0CDD00A71ACF /* HHLoginController.m in Sources */,
+				0A7A58341CE1DE7700B893E5 /* HHTweetCell.m in Sources */,
 				0AAA33A71CDF0B2100A71ACF /* HHActivityController.m in Sources */,
 				0AAA33BE1CDF0CDD00A71ACF /* LrdOutputView.m in Sources */,
+				0A7A58221CE184DB00B893E5 /* HHPublishBar.m in Sources */,
 				0A5064761CDEE65700C9844A /* Foundation+Log.m in Sources */,
 				0A5064281CDEE2CC00C9844A /* main.m in Sources */,
 				0AAA33BC1CDF0CDD00A71ACF /* HHMeController.m in Sources */,
 				0A5064731CDEE65700C9844A /* HHNavigationController.m in Sources */,
+				0A7A58321CE1DE7700B893E5 /* HHTweetController.m in Sources */,
 				0A5064831CDEE82400C9844A /* UIBarButtonItem+HHExtension.m in Sources */,
+				0A7A58331CE1DE7700B893E5 /* HHTweet.m in Sources */,
+				0AAA33C11CDF13AF00A71ACF /* HHActivity.m in Sources */,
 				0A5064741CDEE65700C9844A /* HHTabBarController.m in Sources */,
+				0A7A58381CE1DEBD00B893E5 /* NSDate+XMGExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

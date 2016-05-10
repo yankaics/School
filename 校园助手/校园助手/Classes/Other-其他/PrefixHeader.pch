@@ -13,7 +13,7 @@
 #import "UIBarButtonItem+HHExtension.h"
 #import <SVProgressHUD.h>
 #import <BmobSDK/Bmob.h>
-
+#import "NSDate+XMGExtension.h"
 
 #ifdef DEBUG
 #define HHLog(...) NSLog(__VA_ARGS__)
