@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A48C30C1CE4AC11002DD3EB /* HHWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48C30B1CE4AC11002DD3EB /* HHWeather.m */; };
+		0A48C30F1CE4CDEC002DD3EB /* HHWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48C30E1CE4CDEC002DD3EB /* HHWeatherView.m */; };
+		0A48C3111CE4CDF9002DD3EB /* HHWeatherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A48C3101CE4CDF9002DD3EB /* HHWeatherView.xib */; };
+		0A48C3141CE57DBF002DD3EB /* HHNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A48C3131CE57DBF002DD3EB /* HHNews.m */; };
 		0A5064281CDEE2CC00C9844A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5064271CDEE2CC00C9844A /* main.m */; };
 		0A5064331CDEE2CC00C9844A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5064321CDEE2CC00C9844A /* Assets.xcassets */; };
 		0A5064361CDEE2CC00C9844A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5064341CDEE2CC00C9844A /* LaunchScreen.storyboard */; };
@@ -19,6 +23,9 @@
 		0A5064771CDEE65700C9844A /* UIView+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5064721CDEE65700C9844A /* UIView+HHExtension.m */; };
 		0A5064801CDEE80D00C9844A /* HHNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A50647F1CDEE80D00C9844A /* HHNavigationBar.m */; };
 		0A5064831CDEE82400C9844A /* UIBarButtonItem+HHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5064821CDEE82400C9844A /* UIBarButtonItem+HHExtension.m */; };
+		0A5BBB751CE5B67D0076EC4C /* HHNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BBB741CE5B67D0076EC4C /* HHNewsController.m */; };
+		0A5BBB791CE5B7320076EC4C /* HHNewsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BBB771CE5B7320076EC4C /* HHNewsView.m */; };
+		0A5BBB7A1CE5B7320076EC4C /* HHNewsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5BBB781CE5B7320076EC4C /* HHNewsView.xib */; };
 		0A7A58221CE184DB00B893E5 /* HHPublishBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A58211CE184DB00B893E5 /* HHPublishBar.m */; };
 		0A7A58241CE185ED00B893E5 /* HHPublishBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7A58231CE185ED00B893E5 /* HHPublishBar.xib */; };
 		0A7A58311CE1DE7700B893E5 /* HHStatusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A58271CE1DE7700B893E5 /* HHStatusController.m */; };
@@ -63,6 +70,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A48C30A1CE4AC11002DD3EB /* HHWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHWeather.h; sourceTree = "<group>"; };
+		0A48C30B1CE4AC11002DD3EB /* HHWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHWeather.m; sourceTree = "<group>"; };
+		0A48C30D1CE4CDEC002DD3EB /* HHWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHWeatherView.h; sourceTree = "<group>"; };
+		0A48C30E1CE4CDEC002DD3EB /* HHWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHWeatherView.m; sourceTree = "<group>"; };
+		0A48C3101CE4CDF9002DD3EB /* HHWeatherView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHWeatherView.xib; sourceTree = "<group>"; };
+		0A48C3121CE57DBF002DD3EB /* HHNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNews.h; sourceTree = "<group>"; };
+		0A48C3131CE57DBF002DD3EB /* HHNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNews.m; sourceTree = "<group>"; };
 		0A5064231CDEE2CC00C9844A /* 校园助手.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "校园助手.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5064271CDEE2CC00C9844A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A5064321CDEE2CC00C9844A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +102,11 @@
 		0A50647F1CDEE80D00C9844A /* HHNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNavigationBar.m; sourceTree = "<group>"; };
 		0A5064811CDEE82400C9844A /* UIBarButtonItem+HHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+HHExtension.h"; sourceTree = "<group>"; };
 		0A5064821CDEE82400C9844A /* UIBarButtonItem+HHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+HHExtension.m"; sourceTree = "<group>"; };
+		0A5BBB731CE5B67D0076EC4C /* HHNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNewsController.h; sourceTree = "<group>"; };
+		0A5BBB741CE5B67D0076EC4C /* HHNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNewsController.m; sourceTree = "<group>"; };
+		0A5BBB761CE5B7320076EC4C /* HHNewsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHNewsView.h; sourceTree = "<group>"; };
+		0A5BBB771CE5B7320076EC4C /* HHNewsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHNewsView.m; sourceTree = "<group>"; };
+		0A5BBB781CE5B7320076EC4C /* HHNewsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHNewsView.xib; sourceTree = "<group>"; };
 		0A7A58201CE184DB00B893E5 /* HHPublishBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPublishBar.h; sourceTree = "<group>"; };
 		0A7A58211CE184DB00B893E5 /* HHPublishBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPublishBar.m; sourceTree = "<group>"; };
 		0A7A58231CE185ED00B893E5 /* HHPublishBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHPublishBar.xib; sourceTree = "<group>"; };
@@ -241,6 +260,18 @@
 				0AAA33961CDEFC7900A71ACF /* HHHomeController.m */,
 				0AAA33981CDEFD5200A71ACF /* HHFirstScrollView.h */,
 				0AAA33991CDEFD5200A71ACF /* HHFirstScrollView.m */,
+				0A48C30A1CE4AC11002DD3EB /* HHWeather.h */,
+				0A48C30B1CE4AC11002DD3EB /* HHWeather.m */,
+				0A48C30D1CE4CDEC002DD3EB /* HHWeatherView.h */,
+				0A48C30E1CE4CDEC002DD3EB /* HHWeatherView.m */,
+				0A48C3101CE4CDF9002DD3EB /* HHWeatherView.xib */,
+				0A48C3121CE57DBF002DD3EB /* HHNews.h */,
+				0A48C3131CE57DBF002DD3EB /* HHNews.m */,
+				0A5BBB731CE5B67D0076EC4C /* HHNewsController.h */,
+				0A5BBB741CE5B67D0076EC4C /* HHNewsController.m */,
+				0A5BBB761CE5B7320076EC4C /* HHNewsView.h */,
+				0A5BBB771CE5B7320076EC4C /* HHNewsView.m */,
+				0A5BBB781CE5B7320076EC4C /* HHNewsView.xib */,
 			);
 			path = "Home-主页";
 			sourceTree = "<group>";
@@ -545,11 +576,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5BBB7A1CE5B7320076EC4C /* HHNewsView.xib in Resources */,
 				0AAA33B91CDF0CDD00A71ACF /* HHEditMeInfoController.xib in Resources */,
 				0A5064361CDEE2CC00C9844A /* LaunchScreen.storyboard in Resources */,
 				0A5064331CDEE2CC00C9844A /* Assets.xcassets in Resources */,
 				0AAA33C61CDF237400A71ACF /* HHActivityCell.xib in Resources */,
 				0AAA33BB1CDF0CDD00A71ACF /* HHLoginController.xib in Resources */,
+				0A48C3111CE4CDF9002DD3EB /* HHWeatherView.xib in Resources */,
 				0A7A58351CE1DE7700B893E5 /* HHTweetCell.xib in Resources */,
 				0A7A58241CE185ED00B893E5 /* HHPublishBar.xib in Resources */,
 			);
@@ -633,10 +666,12 @@
 				0AAA33A41CDF0A1900A71ACF /* HHPublishController.m in Sources */,
 				0A7A58311CE1DE7700B893E5 /* HHStatusController.m in Sources */,
 				0AAA33B81CDF0CDD00A71ACF /* HHEditMeInfoController.m in Sources */,
+				0A48C30C1CE4AC11002DD3EB /* HHWeather.m in Sources */,
 				0AAA33971CDEFC7900A71ACF /* HHHomeController.m in Sources */,
 				0A5064751CDEE65700C9844A /* AppDelegate.m in Sources */,
 				0AAA33BA1CDF0CDD00A71ACF /* HHLoginController.m in Sources */,
 				0A7A58341CE1DE7700B893E5 /* HHTweetCell.m in Sources */,
+				0A5BBB791CE5B7320076EC4C /* HHNewsView.m in Sources */,
 				0AAA33A71CDF0B2100A71ACF /* HHActivityController.m in Sources */,
 				0AAA33BE1CDF0CDD00A71ACF /* LrdOutputView.m in Sources */,
 				0A7A58221CE184DB00B893E5 /* HHPublishBar.m in Sources */,
@@ -644,11 +679,14 @@
 				0A5064281CDEE2CC00C9844A /* main.m in Sources */,
 				0AAA33BC1CDF0CDD00A71ACF /* HHMeController.m in Sources */,
 				0A5064731CDEE65700C9844A /* HHNavigationController.m in Sources */,
+				0A48C30F1CE4CDEC002DD3EB /* HHWeatherView.m in Sources */,
 				0A7A58321CE1DE7700B893E5 /* HHTweetController.m in Sources */,
 				0A5064831CDEE82400C9844A /* UIBarButtonItem+HHExtension.m in Sources */,
 				0A7A58331CE1DE7700B893E5 /* HHTweet.m in Sources */,
 				0AAA33C11CDF13AF00A71ACF /* HHActivity.m in Sources */,
 				0A5064741CDEE65700C9844A /* HHTabBarController.m in Sources */,
+				0A5BBB751CE5B67D0076EC4C /* HHNewsController.m in Sources */,
+				0A48C3141CE57DBF002DD3EB /* HHNews.m in Sources */,
 				0A7A58381CE1DEBD00B893E5 /* NSDate+XMGExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -787,7 +825,7 @@
 				GCC_PREFIX_HEADER = "校园助手/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "校园助手/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hjl.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjl.xiaoyuan2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -801,7 +839,7 @@
 				GCC_PREFIX_HEADER = "校园助手/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "校园助手/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hjl.----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hjl.xiaoyuan2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

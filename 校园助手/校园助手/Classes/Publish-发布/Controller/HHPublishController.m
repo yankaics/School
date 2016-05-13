@@ -68,6 +68,8 @@
 }
 
 - (void)close{
+    
+    // 收起键盘
     [self.view endEditing:YES];
     [self dismissViewControllerAnimated:YES completion:nil];
 }

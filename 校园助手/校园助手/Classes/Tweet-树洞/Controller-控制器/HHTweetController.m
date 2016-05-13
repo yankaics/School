@@ -27,6 +27,12 @@
     [self setupRefresh];
 }
 
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self.tableView.mj_header beginRefreshing];
+}
+
 - (void)setupTable {
     // 注册cell
     [self.tableView registerNib:[UINib nibWithNibName:@"HHTweetCell" bundle:nil] forCellReuseIdentifier:@"HHTweetCell"];
